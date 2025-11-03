@@ -1,10 +1,4 @@
-/**
- * Merges discontinuous time ranges within a given threshold.
- * 
- * @param {Array<[number, number]>} ranges - Array of [start, end) ranges (unsorted, may overlap)
- * @param {number} threshold - Max gap (in ms) allowed between ranges to still be merged
- * @returns {Array<[number, number]>} - Sorted, non-overlapping merged ranges
- */
+
 export const mergeTimeRanges = (ranges, threshold) => {
     if (!Array.isArray(ranges) || typeof threshold !== 'number') return [];
   
