@@ -29,4 +29,3 @@ export const mergeTimeRanges = (ranges, threshold) => {
     }
     return merged;
   };
-  
